@@ -36,9 +36,9 @@
     setTimeout(() => {
       this.setState({
         loading: false,
-        data: {name: 'gyurizzang', age: 22}
+        data: {name: 'Nader Dabit', age: 35}
       })
-    }, 2000) //초
+    }, 2000)
   }
   render() {
     if(this.state.loading) {
