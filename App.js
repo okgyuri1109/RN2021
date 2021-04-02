@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, {Component} from 'react';
 import type {Node} from 'react';
 import {
   SafeAreaView,
@@ -60,6 +60,7 @@ class App extends React.Component {
         <Text onPress = {() => this.updateYear()}>
           The Year is : {this.state.year}</Text>
         <Text>My colors are : {this.state.colors[0]}</Text>
+        <Text>topics : {this.state.topics[2]}</Text>
         <Text>length: { this.state.info.length }</Text>
         <Text>Type: {this.state.info.type }</Text>
         { leapyear }
