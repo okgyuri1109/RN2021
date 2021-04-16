@@ -1,16 +1,16 @@
 import React from 'react'
 import { View, TextInput, StyleSheet } from 'react-native'
 
-const Input = ({ inputValue, inputChange }) => (
-  <View style={styles.inputContainer}>
-    <TextInput
-      value={inputValue}
-      style={styles.input}
-      placeholder='What needs to be done?'
-      placeholderTextColor='#CACACA'
-      selectionColor='#666666'
-      onChangeText={inputChange} />
-  </View>
+const Input = ({ inputValue, inputChange }) => (    
+    <View style={styles.inputContainer}>
+      <TextInput
+        value={inputValue}
+        style={styles.input}
+        placeholder='What needs to be done?'
+        placeholderTextColor='#CACACA'
+        selectionColor='#666666'
+        onChangeText={inputChange} />    
+    </View>
 )
 
 const styles = StyleSheet.create({
@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 2, height: 2 }
   },
   input: {
-    marginTop: 40,
     height: 60,
     backgroundColor: '#ffffff',
     paddingLeft: 10,
