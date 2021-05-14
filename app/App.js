@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Text, View, StyleSheet, Image} from 'react-native';
+import React, { Component } from 'react';
+import { Text, View, StyleSheet, Image } from 'react-native';
 
 class App extends Component {
   render() {
@@ -24,25 +24,30 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   cardContainer: {
+    alignItems: 'center',
     borderColor: 'black',
     borderWidth: 3,
     borderStyle: 'solid',
     borderRadius: 20,
     backgroundColor: profileCardColor,
     width: 300,
-    height: 400,
+    height: 400
   },
   cardImageContainer: {
+    alignItems: 'center',
     backgroundColor: 'white',
     borderWidth: 3,
     borderColor: 'black',
     width: 120,
     height: 120,
     borderRadius: 60,
+    marginTop: 30,
+    paddingTop: 2
   },
   cardImage: {
-    width: 80,
-    height: 80,
+    width: 110,
+    height: 110,
+    borderRadius: 60
   },
 });
 
