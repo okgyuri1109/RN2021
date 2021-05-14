@@ -8,4 +8,4 @@
  import {name as appName} from './app.json';
  const myComponentTest = () => <App />
  
- AppRegistry.registerComponent(appName, () => App);
+ AppRegistry.registerComponent(appName, () => App); 
