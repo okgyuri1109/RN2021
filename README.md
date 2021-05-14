@@ -24,7 +24,7 @@
             foo: 100,
             bar: 200
         }
-const {foo, bar} = this.state
+        const {foo, bar} = this.state
 
 ## 3월 26일
     1. render() : 컴포넌트 렌더링
