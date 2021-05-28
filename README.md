@@ -1,8 +1,8 @@
 # React STUDY
 
 ## 5월 28일
-### NaviApp
-### expo-cli
+### 1. NaviApp
+### 2. expo-cli
 
 
 ## 5월 7일
