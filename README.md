@@ -1,6 +1,8 @@
 # React STUDY
 
-## 5월 14일
+## 5월 28일
+### NaviApp
+### expo-cli
 
 
 ## 5월 7일
